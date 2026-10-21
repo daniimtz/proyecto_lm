@@ -1,7 +1,7 @@
-# MAIN.EXE
+# M1ND.EXE
 
 ![Banner de Psicología Oscura](/images/banner_readme.png)
-### Qué es MAIN.EXE?
+### Qué es M1ND.EXE?
 Es un proyecto realizado por Alejandra y Daniel para Lenguaje de Marcas de 1DAW.
 
 Nuestro proyecto es una web de psicología donde ser abordarán temas como los deja vu o el tan conocido Efecto Mandela.
