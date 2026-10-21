@@ -1,4 +1,72 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    margin: 10%
+    margin: 0;
+    background: linear-gradient(to right, #000000, #2a5298);
+}
+
+header {
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Rubik Microbe', system-ui;
+    font-size: 8rem;
+    text-shadow: 20px 20px 10px #050505;
+}
+
+header a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 8rem;
+    font-size: 2rem;
+    background-color: #000000a2;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
